@@ -1,0 +1,4 @@
+* Preliminary Research into probable systems
+** Stochastic Modeling of Physical Systems
+*** [[https://hal.archives-ouvertes.fr/hal-01516295/document][Uncertainty Quantification]]
+*** [[https://www.math.uchicago.edu/~lawler/finbook2.pdf][Stochastic Calculus]]
