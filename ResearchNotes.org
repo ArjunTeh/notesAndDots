@@ -5,9 +5,8 @@
 
 
 * Thoughts on Adaptive Imaging techniques
-The goal of this project is to develop a framework for deciding on how to continuously capture shape information based on what is already known about the subject being captured. 
-Recognizing the different noise characteristics from different sensor modalities dynamically allows for readapting the sensing strategy to better capture the shape data of the subject.
-This requires understanding how the noise characteristics of each sensor modality interacts with each other and understanding what strategies can be employed to minimize the resulting variance.
+The goal of this project is to develop a framework for deciding on how to continuously adapt sensing strategies to capture shape information based on information already captured. 
+Dynamically reconciling the different noise characteristics from different sensor modalities helps to identify useful strategies for shape capture.
 
 The proposal is to construct a probabilistic representation of shape that can encode the different sensor modalities and their respective error models. 
 By having noise as a principal component of shape, it will be easier to discern what is known about the subject and scene.
