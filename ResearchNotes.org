@@ -13,3 +13,9 @@ By having noise as a principal component of shape, it will be easier to discern 
 Having a dynamic model of what is and is not known allows for reasoning about optimal strategies for the next round of capture.
 
 First steps in this project would be to study how different noise characteristics interact with each other in different surface reconstruction environments like room capture and high fidelity recovery.
+
+* Notes about things to look up
+** Manhattan World Assumption
+  - This is only useful if we are looking at large scale scenes.
+
+* SPAD sensors
