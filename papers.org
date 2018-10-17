@@ -1,4 +1,8 @@
+#+OPTIONS: toc:1
 * Simulation
+** [[http://pub.ist.ac.at/group_wojtan/projects/2013_Ando_HALSoTM/download/tetflip.pdf][Highly Adaptive Liquid Simulations on Tetrahedral Meshes]]
+   This is basically an application of many different methods used fluid mechanics before it. With the addition of formulating the grid as
+   a set of tets that can have variable sizes. Should look further into the boundary conditions. Otherwise, standard FLIP/PIC use.
 ** [[https://arxiv.org/abs/1408.1118][Spoke-Darts for High-Dimensional Blue-Noise Sampling]]
    Useful in which applications? Most configuration exploration problems a level of sampling. Why is blue noise the right choice here?
    It makes sense that a robust sampling method is useful, how can this be applied in ways to adapt over a preliminary choice of samples?
