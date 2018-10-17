@@ -13,6 +13,8 @@
 ** [[http://www.pnas.org/content/110/45/18327][Simulation as an engine of physical scene understanding]]
    The simulation here is not very complex, and probably only simulates simple scenes. Though the main construction of the simulation seems
    to be pretty interesting. Generally using a stochastic approach-using one run of the simulation as a sample in the probabilistic domain
+   
+   "The IPE performs prediction by simulation and incorporates uncertainty about the scene by treating its simulation runs as statistical samples"
 
 * Configuration in robotics
 ** [[http://www.roboticsproceedings.org/rss01/p15.pdf][Towards Optimal Configuration Space Sampling]]
@@ -22,3 +24,8 @@
 ** [[https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8202133][Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World]]
    Only concerned with the domain randomization problem here. More like is there a way to explore/assess coverage? This looks more like the beginning
    of this idea of domain exploration.
+
+* Rendering
+** [[https://link.springer.com/chapter/10.1007%2F978-3-319-10584-0_11][Differentiable Rendering]]
+** [[https://dl.acm.org/citation.cfm?id=2766930][Variance analysis for Monte Carlo integration]]
+   Talks about a language for assessing the different sampling strategies for raytracing
