@@ -1,14 +1,20 @@
 * Simulation
-  [[https://arxiv.org/abs/1408.1118][Spoke-Darts for High-Dimensional Blue-Noise Sampling]]
-Useful in which applications? Most configuration exploration problems a level of sampling. Why is blue noise the right choice here?
-It makes sense that a robust sampling method is useful, how can this be applied in ways to adapt over a preliminary choice of samples?
-Constrain the algorithm based on the application?
-[[https://lgg.epfl.ch/publications/2014/ProjectiveDynamics//paper.pdf][Projective Dynamics: Fusing Constraint Projections for Fast Simulation]]
+** [[https://arxiv.org/abs/1408.1118][Spoke-Darts for High-Dimensional Blue-Noise Sampling]]
+   Useful in which applications? Most configuration exploration problems a level of sampling. Why is blue noise the right choice here?
+   It makes sense that a robust sampling method is useful, how can this be applied in ways to adapt over a preliminary choice of samples?
+   Constrain the algorithm based on the application?
+** [[https://lgg.epfl.ch/publications/2014/ProjectiveDynamics//paper.pdf][Projective Dynamics: Fusing Constraint Projections for Fast Simulation]]
+   What's the insight of the integrator here? Maybe that constraints can be synthesized in smarter ways so that they are easier to compute
+
+** [[http://www.pnas.org/content/110/45/18327][Simulation as an engine of physical scene understanding]]
+   The simulation here is not very complex, and probably only simulates simple scenes. Though the main construction of the simulation seems
+   to be pretty interesting. Generally using a stochastic approach-using one run of the simulation as a sample in the probabilistic domain
+
 * Configuration in robotics
-[[http://www.roboticsproceedings.org/rss01/p15.pdf][Towards Optimal Configuration Space Sampling]]
+** [[http://www.roboticsproceedings.org/rss01/p15.pdf][Towards Optimal Configuration Space Sampling]]
+   Another question of how to properly sample the configuration space so that you can obtain optimal path planning.
 
 * Deep Learning assistance
-[[https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8202133][Domain Randomization for Transferring Deep Neural Networks from
-Simulation to the Real World]]
-Only concerned with the domain randomization problem here. More like is there a way to explore/assess coverage? This looks more like the beginning
-of this idea of domain exploration.
+** [[https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8202133][Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World]]
+   Only concerned with the domain randomization problem here. More like is there a way to explore/assess coverage? This looks more like the beginning
+   of this idea of domain exploration.
