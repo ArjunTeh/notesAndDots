@@ -1,0 +1,14 @@
+* Simulation
+  [[https://arxiv.org/abs/1408.1118][Spoke-Darts for High-Dimensional Blue-Noise Sampling]]
+Useful in which applications? Most configuration exploration problems a level of sampling. Why is blue noise the right choice here?
+It makes sense that a robust sampling method is useful, how can this be applied in ways to adapt over a preliminary choice of samples?
+Constrain the algorithm based on the application?
+[[https://lgg.epfl.ch/publications/2014/ProjectiveDynamics//paper.pdf][Projective Dynamics: Fusing Constraint Projections for Fast Simulation]]
+* Configuration in robotics
+[[http://www.roboticsproceedings.org/rss01/p15.pdf][Towards Optimal Configuration Space Sampling]]
+
+* Deep Learning assistance
+[[https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8202133][Domain Randomization for Transferring Deep Neural Networks from
+Simulation to the Real World]]
+Only concerned with the domain randomization problem here. More like is there a way to explore/assess coverage? This looks more like the beginning
+of this idea of domain exploration.
