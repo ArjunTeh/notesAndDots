@@ -16,9 +16,16 @@
    
    "The IPE performs prediction by simulation and incorporates uncertainty about the scene by treating its simulation runs as statistical samples"
 
+** [[https://dl.acm.org/citation.cfm?doid=3151031.3153420][Stabilizing Integrators for Real-Time Physics]]
+   The main insight is that while a symplectic integrator oscillates around an energy. It is possible to blend in another integrator that either injects or dampens energy from the system.
+** [[http://graphics.pixar.com/library/StableElasticity/paper.pdf][Stable Neo-Hookean Flesh Simulation]]
+   This will be useful in skin simulation. Soft body dynamics will also need this. Real-time prioritizes stability over accuracy?
+** [[https://www.seas.upenn.edu/~cffjiang/research/async/fang2018async.pdf][A Temporally Adaptive Material Point Method with Regional Time Stepping]]
+   The main insight is that you can check to see if the energy is going to managable, in which case, you can change the time step for a block so that it only needs to be updated based on the energy in it. The tricky part is the boundary of two blocks with different time steps. This can be solved by assumming the block is constant for the smaller time step block's boundary, by "duplicating" the boundary box and using that to update.
 * Configuration in robotics
 ** [[http://www.roboticsproceedings.org/rss01/p15.pdf][Towards Optimal Configuration Space Sampling]]
    Another question of how to properly sample the configuration space so that you can obtain optimal path planning.
+** [[https://arxiv.org/pdf/1502.02474.pdf][Planning for robotic exploration based on forward simulation]]
 
 * Deep Learning assistance
 ** [[https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8202133][Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World]]
@@ -29,3 +36,22 @@
 ** [[https://link.springer.com/chapter/10.1007%2F978-3-319-10584-0_11][Differentiable Rendering]]
 ** [[https://dl.acm.org/citation.cfm?id=2766930][Variance analysis for Monte Carlo integration]]
    Talks about a language for assessing the different sampling strategies for raytracing
+
+
+** Notes about Metropolis Light Transport
+   - Relies on having BDPT and regular PT to see the sampling mechanisms
+* Generic Sampling Methods
+** [[http://proceedings.mlr.press/v22/brubaker12/brubaker12.pdf][Family of MCMC Methods on Implicitly Defined Manifolds]]
+   - It seems that MCMC really mostly used when we need to actually evaluate _f(x)_
+
+* Things to do
+** TODO Look at the Picture Paper by Tenenbaum
+*** Questions
+    - Elliptical Slice Proposals
+    - MCMC approximation algorithm
+    - It seems like we need some sort of prior classifier for Picture to work. Does it need to be related to the actual task?
+** TODO Look at the Stable integrator paper
+   The main insight is that we can use backward and forward euler to attenuate the oscillations in energy from a symplectic integrator.
+
+** TODO Download Mitsuba Renderer
+   Think more about the project and whether or not its something I really want to commit to.
