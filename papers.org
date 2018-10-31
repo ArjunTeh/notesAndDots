@@ -37,6 +37,7 @@
 ** [[https://dl.acm.org/citation.cfm?id=2766930][Variance analysis for Monte Carlo integration]]
    Talks about a language for assessing the different sampling strategies for raytracing
 
+** [[http://delivery.acm.org/10.1145/2190000/2185554/a58-jakob.pdf?ip=128.237.218.193&id=2185554&acc=ACTIVE%20SERVICE&key=A792924B58C015C1%2E5A12BE0369099858%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1541003952_6cfb7bcc45fca10e28119c2c4ef20bb9][Manifold Exploration: A Markov Chain Monte Carlo Technique for Rendering Scenes with Difficult Specular Transport]]
 
 ** Notes about Metropolis Light Transport
    - Relies on having BDPT and regular PT to see the sampling mechanisms
@@ -45,13 +46,17 @@
    - It seems that MCMC really mostly used when we need to actually evaluate _f(x)_
 
 * Things to do
-** TODO Look at the Picture Paper by Tenenbaum
+** DONE Look at the Picture Paper by Tenenbaum
+   CLOSED: [2018-10-31 Wed 13:02]
 *** Questions
     - Elliptical Slice Proposals
     - MCMC approximation algorithm
     - It seems like we need some sort of prior classifier for Picture to work. Does it need to be related to the actual task?
-** TODO Look at the Stable integrator paper
+** DONE Look at the Stable integrator paper
+   CLOSED: [2018-10-31 Wed 13:02]
    The main insight is that we can use backward and forward euler to attenuate the oscillations in energy from a symplectic integrator.
 
-** TODO Download Mitsuba Renderer
+** DONE Download Mitsuba Renderer
+   CLOSED: [2018-10-31 Wed 13:02]
    Think more about the project and whether or not its something I really want to commit to.
+** TODO Look more into inverse rendering (MLT Potential)
