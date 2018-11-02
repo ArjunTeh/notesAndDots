@@ -1,7 +1,24 @@
+* Contents
+  - [[Intro Notes]]
+  - [[Ideas]]
+  - [[Relevant Papers]]
+  - [[Notes about Monte Carlo Strategies]]
+
 * Intro Notes
   The broad question here is whether or not these monte carlo sampling techniques used in rendering are useful in physical simulation realm.
   Supposedly, we can take a global system and only sample parts of it to see if maybe there exists an adaptive way to sample these problems.
 
 * Ideas
   It may be worth taking inspiration from adaptive techniques and instead of LOD use sampling techniques to get the necessary information.
+
 * Relevant Papers
+
+* Notes about Monte Carlo Strategies
+** Things to look up
+  1. Control Variates
+  2. Rao-Blackwellization
+  3. Dynamic Programming - Probability method
+     1. Peeling algorithm
+     2. Exact Simulation
+** TODO Go over the importance sampling section
+** TODO Go over the advanced importance sampling section
