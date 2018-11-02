@@ -1,0 +1,7 @@
+* Intro Notes
+  The broad question here is whether or not these monte carlo sampling techniques used in rendering are useful in physical simulation realm.
+  Supposedly, we can take a global system and only sample parts of it to see if maybe there exists an adaptive way to sample these problems.
+
+* Ideas
+  It may be worth taking inspiration from adaptive techniques and instead of LOD use sampling techniques to get the necessary information.
+* Relevant Papers

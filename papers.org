@@ -1,4 +1,12 @@
 #+OPTIONS: toc:1
+* Contents
+  - [[Simulation]]
+  - [[Coniguration in robotics]]
+  - [[Deep Learning Assistance]]
+  - [[Rendering]]
+  - [[Generic Sampling Methods]]
+  - [[Things to do]]
+ 
 * Simulation
 ** [[http://pub.ist.ac.at/group_wojtan/projects/2013_Ando_HALSoTM/download/tetflip.pdf][Highly Adaptive Liquid Simulations on Tetrahedral Meshes]]
    This is basically an application of many different methods used fluid mechanics before it. With the addition of formulating the grid as
@@ -60,3 +68,4 @@
    CLOSED: [2018-10-31 Wed 13:02]
    Think more about the project and whether or not its something I really want to commit to.
 ** TODO Look more into inverse rendering (MLT Potential)
+** TODO Learn about spherical harmonics - look for video or soemthing 
