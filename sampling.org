@@ -22,3 +22,4 @@
      2. Exact Simulation
 ** TODO Go over the importance sampling section
 ** TODO Go over the advanced importance sampling section
+** TODO Run Mitsuba with MLT demo, see how it works!
