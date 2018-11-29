@@ -17,7 +17,7 @@ drawnow;
 x = 3*dims(2)/4;
 y = 3*dims(1)/4;
 
-max_iters = dims(1)*dims(2)*10;
+max_iters = dims(1)*dims(2)*20;
 num_rejects = 0;
 for i=1:max_iters
 
@@ -61,5 +61,8 @@ for i=1:max_iters
         drawnow;
     end
 end
+
+reject_ratio = num_rejects/max_iters;
 fprintf("rejected: %i\n", num_rejects);
-imshow(tar_img, []);
+imshow(tar_img, []); 
+title(strcat('rejection ratio: ', num2str(reject_ratio)));
